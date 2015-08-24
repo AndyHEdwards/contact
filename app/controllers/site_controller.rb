@@ -12,6 +12,6 @@ class SiteController < ApplicationController
   end
 
   def terms
-
+    @title = "Terms"
   end
 end
