@@ -6,4 +6,12 @@ class SiteController < ApplicationController
   def about
     @title = "About Us"
   end
+
+  def privacy
+    @title = "Privacy"
+  end
+
+  def terms
+
+  end
 end
